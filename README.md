@@ -9,6 +9,8 @@ YouTube 链接：https://www.youtube.com/playlist?list=PLJV_el3uVTsOK_ZK5L0Iv_EQ
 
 此前，他的 2016 版《机器学习》课程视频曾是流行学习资料。
 
+![机器能不能知道“我不知道”](https://github.com/zky38018/Machine-Learning-Hung-yi-Lee-NTU-2019-/blob/master/overview-1.jpg)
+
 2019 版《机器学习》课程目录，括号内为新增内容：
 
 - 回归、梯度下降
