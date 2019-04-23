@@ -4,7 +4,7 @@
 
 ----------
 
-# Basic idea of GAN #
+# 1.Basic idea of GAN #
 ##   Generation ##
 图像生成：输入一个向量，输出一张图片。
 ## Discriminator ##
@@ -23,7 +23,7 @@ scalar越大，代表图像越真实；越小，代表越假。
 
 ----------
 
-# GAN as structured learning #
+# 2.GAN as structured learning #
 ## structured learning ##
 
 ![](https://i.imgur.com/NQBZqyu.png)
@@ -43,7 +43,7 @@ scalar越大，代表图像越真实；越小，代表越假。
 
 ----------
 	
-# Can Generator learn by itself? #
+# 3.Can Generator learn by itself? #
 
 1. G是输入一个向量，输出一张图片，那输入的向量（code）哪里来？
 2. Encoder in auto-encoder provides the code
@@ -59,7 +59,7 @@ scalar越大，代表图像越真实；越小，代表越假。
 
 ----------
 
-# Can Discriminator generate? #
+# 4.Can Discriminator generate? #
 
 1. Discriminator的输入是一个对象，比如一张图象，输出是一个scalar，代表对象的好坏
 2. 自上而下地评价组分之间的关系是很容易的.
@@ -70,12 +70,12 @@ scalar越大，代表图像越真实；越小，代表越假。
 
 ----------
 
-# G和D的比较 #
+# 5.G和D的比较 #
 
 G是从局部考虑，D是全局考虑。
 ![](https://i.imgur.com/CZvVYxe.png)
 
 ----------
 
-# Benefit of GAN #
+# 6.Benefit of GAN #
 ![](https://i.imgur.com/qauXObq.png)
